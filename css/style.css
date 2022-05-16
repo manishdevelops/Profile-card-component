@@ -4,7 +4,9 @@
     padding: 0;
 }
 
-body {}
+body {
+    background: url("/assets/images/bg-pattern-top.svg"), url("/assetsimagesbg-pattern-bottom.svg");
+}
 
 main {
     margin: 8rem 0 0 0;
@@ -27,17 +29,18 @@ main {
     border-radius: 50px;
     height: 100px;
     border: 7px solid white;
+    margin-top: -50px;
 }
 
 .img-block {
     text-align: center;
-    position: relative;
-    top: -50px;
+    /* top: -50px; */
 }
 
 .name-block {
     display: flex;
     justify-content: center;
+    margin: .7rem 0;
 }
 
 .name-block p {
@@ -46,4 +49,19 @@ main {
 
 .lon {
     text-align: center;
+    margin: 0 0 0.7rem 0;
+}
+
+.profile-data {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.profile-data p {
+    font-size: 1.3rem;
+}
+
+span {
+    font-size: 0.8rem;
 }
