@@ -7,7 +7,7 @@
 body {}
 
 main {
-    margin: 8rem 0;
+    margin: 8rem 0 0 0;
     display: flex;
     justify-content: center;
 }
@@ -27,10 +27,23 @@ main {
     border-radius: 50px;
     height: 100px;
     border: 7px solid white;
+}
+
+.img-block {
+    text-align: center;
     position: relative;
     top: -50px;
 }
 
-.img-block {
+.name-block {
+    display: flex;
+    justify-content: center;
+}
+
+.name-block p {
+    margin-right: 1rem;
+}
+
+.lon {
     text-align: center;
 }
