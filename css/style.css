@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {}
+
+main {
+    margin: 8rem 0;
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    width: 300px;
+    border-radius: 10px;
+}
+
+.card-top {
+    background-image: url("/assets/images/bg-pattern-card.svg");
+    width: 300px;
+    height: 150px;
+}
+
+.img-block img {
+    border-radius: 50px;
+    height: 100px;
+    border: 7px solid white;
+    position: relative;
+    top: -50px;
+}
+
+.img-block {
+    text-align: center;
+}
