@@ -16,6 +16,6 @@
 
 .prettierignore
 
-README1.md
 style-guide.md
+README1.md
 .gitignore
