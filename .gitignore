@@ -15,3 +15,7 @@
 .DS_Store
 
 .prettierignore
+
+README1.md
+style-guide.md
+.gitignore

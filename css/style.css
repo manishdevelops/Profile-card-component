@@ -5,7 +5,10 @@
 }
 
 body {
-    background: url("/assets/images/bg-pattern-top.svg"), url("/assetsimagesbg-pattern-bottom.svg");
+    background: url("/assets/images/bg-pattern-top.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: -50% -50%;
 }
 
 main {
