@@ -6,11 +6,12 @@
 }
 
 body {
-    background: url("/assets/images/bg-pattern-top.svg");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: -50% -50%;
+    background-image: url('/assets/images/bg-pattern-top.svg'), url('/assets/images/bg-pattern-bottom.svg');
+    background-size: contain, contain;
+    background-repeat: no-repeat, no-repeat;
+    background-position: -50% -50%, 100% 60%;
     background-color: hsl(185, 75%, 39%);
+    /* height: 100px, 100px; */
 }
 
 main {
@@ -29,6 +30,8 @@ main {
     background-image: url("/assets/images/bg-pattern-card.svg");
     width: 300px;
     height: 150px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 .img-block img {
@@ -53,6 +56,7 @@ main {
     margin-right: 1rem;
     font-family: 'Kumbh Sans', sans-serif;
     font-weight: 700;
+    color: hsl(229, 23%, 23%);
 }
 
 .name-block :nth-child(2) {
@@ -83,6 +87,7 @@ main {
     font-size: 1.2rem;
     font-family: 'Kumbh Sans', sans-serif;
     font-weight: 700;
+    color: hsl(229, 23%, 23%);
 }
 
 span {
@@ -93,4 +98,11 @@ span {
 p span {
     font-weight: 400;
     color: hsl(0, 0%, 59%);
+}
+
+hr {
+    height: 1px;
+    background-color: #ccc;
+    border: none;
+    margin: 1rem 0;
 }
