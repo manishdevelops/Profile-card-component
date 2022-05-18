@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
 * {
     box-sizing: border-box;
     margin: 0;
@@ -9,6 +10,7 @@ body {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: -50% -50%;
+    background-color: hsl(185, 75%, 39%);
 }
 
 main {
@@ -20,6 +22,7 @@ main {
 .card {
     width: 300px;
     border-radius: 10px;
+    background-color: whitesmoke;
 }
 
 .card-top {
@@ -46,25 +49,48 @@ main {
     margin: .7rem 0;
 }
 
-.name-block p {
+.name-block p:first-child {
     margin-right: 1rem;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 700;
+}
+
+.name-block :nth-child(2) {
+    color: hsl(0, 0%, 59%);
+    font-size: 1.125rem;
 }
 
 .lon {
     text-align: center;
     margin: 0 0 0.7rem 0;
+    font-size: 1.125rem;
+}
+
+.lon p {
+    font-family: 'Kumbh Sans', sans-serif;
+    color: hsl(0, 0%, 59%);
 }
 
 .profile-data {
     text-align: center;
     display: flex;
     justify-content: space-around;
+    font-family: 'Kumbh Sans', sans-serif;
+    margin-bottom: 1.5rem;
 }
 
 .profile-data p {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 700;
 }
 
 span {
     font-size: 0.8rem;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+p span {
+    font-weight: 400;
+    color: hsl(0, 0%, 59%);
 }
