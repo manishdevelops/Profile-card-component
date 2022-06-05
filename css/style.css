@@ -26,6 +26,15 @@ main {
     background-color: whitesmoke;
 }
 
+@media(max-width:315px) {
+    .card {
+        width: 260px;
+    }
+    .card-top {
+        width: 261px !important;
+    }
+}
+
 .card-top {
     background-image: url("/assets/images/bg-pattern-card.svg");
     width: 300px;
