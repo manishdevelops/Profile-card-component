@@ -7,9 +7,9 @@
 
 body {
     background-image: url('/assets/images/bg-pattern-top.svg'), url('/assets/images/bg-pattern-bottom.svg');
-    background-size: contain, contain;
+    background-size: inherit;
     background-repeat: no-repeat, no-repeat;
-    background-position: -50% -50%, 100% 60%;
+    background-position: -400px -510px, 580px 300px;
     background-color: hsl(185, 75%, 39%);
     /* height: 100px, 100px; */
 }
