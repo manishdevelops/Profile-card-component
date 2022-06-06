@@ -20,12 +20,17 @@ body {
     }
 }
 
-
-/* @media (max-width:775px) and (min-width:1264px) {
+@media (max-width:1063px) {
     body {
-        background-position: -600px -530px, 300px 320px !important;
+        background-position: -600px -540px, 490px 320px !important;
     }
-} */
+}
+
+@media (max-width: 450px) {
+    body {
+        background-position: -700px -540px, 150px 320px !important;
+    }
+}
 
 main {
     margin: 8rem 0 0 0;
